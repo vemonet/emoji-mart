@@ -14,7 +14,8 @@
     "check:types": "tsc",
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write .",
-    "test": "jest"
+    "test": "jest",
+    "internationalize": "node scripts/internationalize.js"
   },
   "devDependencies": {
     "@babel/core": "7.18.9",
